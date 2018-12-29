@@ -29,4 +29,4 @@ for(x, y, w, h) in faces:
     cv2.circle(image, (np.int(((x+x+w)/2)), np.int((y+y+h)/2)), np.int(w/2), (0, 255, 0), 2)
 plt.imshow(image)
 plt.show()
-imsave(r"./output.jpg",image)
+imsave(r"./output.jpg", image)
